@@ -39,7 +39,7 @@ export default function (state = initialState, action) {
 		case ADD_CONTACT:
 			return {
 				...state,
-				contacts: [action.payoad, ...state.contact],
+				contacts: [action.payload, ...state.contacts],
 			};
 		default:
 			return state;
